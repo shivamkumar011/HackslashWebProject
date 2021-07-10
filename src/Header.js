@@ -1,10 +1,10 @@
 import React from 'react'
- import image from './'
+ import img from './'
 
 function Header() {
     return (
         <div className="notification bar">
-        <img src={image} alt="">fag</img>
+        <img src={img} alt="">fag</img>
             
         </div>
     )
