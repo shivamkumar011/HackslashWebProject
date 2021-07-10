@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +35,78 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+ *{
+   font-family: 'sora',sans-serif;
+   box-sizing: border-box;
+   margin: 1px;
+   padding: 0;
+   
+ }
+ .uc{
+   background:whitesmoke;
+   padding: 0px;
+ }
+ .line{
+   color: rgb(216, 198, 198);
+   margin-left: 22px;
+ }
+ .img1{
+   display: flex;
+   width: 1100px;
+   background:cornsilk;
+   z-index: 44;
+   @media screen (min-width=500px) {
+      .b2{width:50%;
+      height:auto}
+     
+   }
+   margin-left: 10px;
+ }
+.b2{
+  position: relative;
+ left: 188px;
+ margin-top: 0px;
+  background:cornsilk;
+  width: 50%;
+  bottom: 0px;
+  z-index: 355;
+}
+.b1{
+  width: 50%;
+  z-index: 533;
+  margin-left: 55px;
+  
+}
+.text1{
+  margin-top: 180px;
+  padding-left: 0px;
+  font-size: 23px;
+}
+.i1{
+  height: 100%;
+}
+.p1 {
+  text-align: center;
+  background:rgb(240, 176, 2);
+ font-size: 26px;
+ width: 1530px;
+  z-index:724;
+
+}
+.i2.p{
+  height: 36px;
+  z-index: 724; 
+}
+.ml{
+ 
+  margin-left: 190px;
+}
+.link{
+  z-index:225;
+}
+.Peace{
+  z-index:2443 ;
+ 
 }
