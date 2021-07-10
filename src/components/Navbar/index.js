@@ -3,7 +3,6 @@ import { NavLink,Nav,Bars,NavMenu } from './NavbarElements'
 import  uclogo from '../../images/UC-Logo_Vector-01 2.jpg'
 import phone from '../../images/phone.png'
 
-
 const Navbar = ({toggle}) => {
     return (
         <div>
