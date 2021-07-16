@@ -7,7 +7,8 @@ import Home from './components/Home'
 import Page1 from './components/Page1';
 import Services from './components/Services';
 import { useMediaQuery } from 'react-responsive'
-import CardCarousel from './components/CardCarousel';
+import Carousel from './components/Carousel';
+import Review from './components/Review';
 function App() {
   const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
   
@@ -24,8 +25,8 @@ function App() {
     </Router>
     <Home/>
     <Page1/>
-    {isMobile?<CardCarousel/>:<Services/>}
-  
+    {isMobile?<Carousel/>:<Services/>}
+    <Review/>
     
     </>
   );
