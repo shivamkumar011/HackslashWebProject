@@ -9,6 +9,9 @@ import Services from './components/Services';
 import { useMediaQuery } from 'react-responsive'
 import Carousel from './components/Carousel';
 import Review from './components/Review';
+import { FooterContainer } from './containers/footer.js'
+import { AboveContainer } from './containers/above'
+import { ImageContainer } from './containers/images.js';
 function App() {
   const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
   
@@ -26,8 +29,10 @@ function App() {
     <Home/>
     <Page1/>
     {isMobile?<Carousel/>:<Services/>}
+    <ImageContainer/>
     <Review/>
-    
+    <AboveContainer />
+    <FooterContainer />
     </>
   );
   }
