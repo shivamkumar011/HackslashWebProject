@@ -1,0 +1,61 @@
+.scroll-to-top {
+  position: relative;
+  top: 5px;
+  left: 90%;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #fffdfd;
+  border-color: rgb(194, 194, 194);
+  z-index: 1;
+}
+
+.image {
+  background-image: url("./arrow.JPG");
+  width: 32px;
+  height: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover, contain;
+  border: none;
+  border-color: white;
+  padding: 0px 0px 0px 0px;
+}
+
+.scroll-to-top .icon {
+  margin-top: 10px;
+  animation: scrollTop 0.5s alternate ease infinite;
+}
+
+@keyframes scrollTop {
+  from {
+    transform: translateY(2px);
+  }
+  to {
+    transform: translateY(-1px);
+  }
+}
+@media all and (max-width: 419px) {
+  .scroll-to-top {
+    position: relative;
+    top: 0px;
+    left: 40%;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: #fffdfd;
+    border-color: rgb(194, 194, 194);
+    z-index: 1;
+  }
+  .image {
+    background-image: url("./arrow.JPG");
+    width: 32px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+    border: none;
+    border-color: white;
+    padding: 0px 0px 0px 0px;
+  }
+}
