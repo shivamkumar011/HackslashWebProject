@@ -1,0 +1,17 @@
+.pics {
+  background-image: url("./pic.JPG");
+  width: 100%;
+  height: 243.29px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover, contain;
+  border: none;
+  border-color: white;
+  padding: 0px 0px 0px 0px;
+}
+
+@media all and (max-width: 400px) {
+  .pics {
+    display: none;
+  }
+}
