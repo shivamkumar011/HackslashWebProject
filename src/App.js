@@ -12,6 +12,7 @@ import Review from './components/Review';
 import { FooterContainer } from './containers/footer.js'
 import { AboveContainer } from './containers/above'
 import { ImageContainer } from './containers/images.js';
+import BestCari from './BestCari';
 function App() {
   const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
   
