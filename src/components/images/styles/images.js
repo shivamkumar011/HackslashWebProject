@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background: #395FA9;
-  margin-bottom: 450px;
+  margin-bottom: 0px;
   height: 243.29px;  
-  backgrounnd-color: #395FA9;
+  background-color: #395FA9;
   @media (max-width: 1000px) {
   }
   @media (max-width: 480px) {
@@ -13,11 +13,11 @@ export const Container = styled.div`
 `;
 
 export const Wrapper = styled.div`
-    backgrounnd-color: #395FA9;
+    background-color: #395FA9;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 1000px
+    max-width: 1000px;
     margin: 0 auto;
     @media (max-width: 480px) {
       display: none;

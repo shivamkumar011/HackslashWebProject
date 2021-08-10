@@ -92,10 +92,6 @@ const Review = () => {
   
 </Carousel>
 
-
-
-
-      
       </div>
       <div style={{display:"flex",marginLeft:"400px",marginTop:"10px"}}>
           <h1 style={{fontSize:"23px",color:"blue" }}>SEE ALL REVIEWS</h1>

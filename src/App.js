@@ -29,6 +29,8 @@ function App() {
     <Home/>
     <Page1/>
     {isMobile?<Carousel/>:<Services/>}
+   
+    
     <ImageContainer/>
     <Review/>
     <AboveContainer />
