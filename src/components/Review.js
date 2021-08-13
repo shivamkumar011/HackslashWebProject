@@ -95,7 +95,7 @@ const Review = () => {
       </div>
       <div style={{display:"flex",marginLeft:"400px",marginTop:"10px"}}>
           <h1 style={{fontSize:"23px",color:"blue" }}>SEE ALL REVIEWS</h1>
-          <img src={arrow}    alt=""/>
+          <img src={arrow}  style={{height:"50px",width:"30px",marginTop:"65px",marginLeft:"10px"}}  alt=""/>
       </div>
         </div>
         

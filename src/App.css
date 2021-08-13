@@ -51,6 +51,7 @@
  .line{
    color: rgb(216, 198, 198);
    margin-left: 22px;
+   margin-bottom: 30px;
  }
  .img1{
    display: flex;
@@ -64,6 +65,7 @@
    }
    margin-left: 10px;
  }
+
 .b2{
   position: relative;
  left: 188px;
@@ -73,16 +75,17 @@
   bottom: 0px;
   z-index: 355;
 }
+
 .b1{
   width: 50%;
   z-index: 533;
-  margin-left: 55px;
+  margin-left: 50px;
   
 }
 .text1{
-  margin-top: 180px;
+  margin-top: 100px;
   padding-left: 0px;
-  font-size: 23px;
+  font-size: 25px;
 }
 .i1{
   height: 100%;
@@ -91,7 +94,7 @@
   text-align: center;
   background:rgb(240, 176, 2);
  font-size: 26px;
- width: 1530px;
+ width: 1520px;
   z-index:724;
 
 }

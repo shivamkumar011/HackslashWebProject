@@ -15,11 +15,11 @@ const Services = () => {
     return ( 
         <div>
         <div style={{display:"flex"}}>
-             <div style={{marginLeft:"60px",width:"500px",marginTop:"40px"}}>
-                 <h2 style={{fontFamily:"sans-serif"}}>your peace of mind is</h2>
+             <div style={{marginLeft:"40px",width:"500px",marginTop:"40px"}}>
+                 <h2 style={{fontFamily:"sans-serif",fontSize:"34px",marginBottom:"-60px",marginLeft:"-60px"}}>your peace of mind is</h2>
                   <h1 style={{fontFamily:"sans-serif" ,width:"430px"}}>our number one priority.</h1>
-                  <div style={{background:"orange",width:"200px",height:"2px",marginTop:"30px",marginBottom:"40px"}}></div>
-                  <p style={{fontFamily:"sans-serif"}}>
+                  <div style={{background:"orange",width:"200px",height:"2px",marginTop:"40px",marginBottom:"40px",marginLeft:"49px"}}></div>
+                  <p style={{fontFamily:"sans-serif",fontSize:"22px"}}>
                       UniversaCare offers a range of services for<br/> in-home care. We are your partners in <br/>
                       care ,and work with you to come up with a<br/>
                       plan of action. 

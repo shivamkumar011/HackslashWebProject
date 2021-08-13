@@ -31,7 +31,7 @@ function App() {
     <Page1/>
     {isMobile?<Carousel/>:<Services/>}
    
-    
+    <BestCari/>
     <ImageContainer/>
     <Review/>
     <AboveContainer />

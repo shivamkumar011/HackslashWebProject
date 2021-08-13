@@ -17,14 +17,14 @@ const Caraousel = () => {
         <div>
 
 
-<div  style={{marginLeft:"170px",width:"500px",marginTop:"40px",align:"center"}}>
-                 <h2 className="Peace"style={{fontFamily:"sans-serif"}}>your peace of mind is</h2>
-                  <h1 className="Peace" style={{fontFamily:"sans-serif" ,width:"430px"}}>our number one priority.</h1>
-                  <div style={{background:"orange",width:"200px",height:"2px",marginTop:"30px",marginBottom:"40px"}}>
+<div  style={{marginLeft:"160px",width:"500px",marginTop:"40px",align:"center"}}>
+                 <h2 className="Peace"style={{fontFamily:"sans-serif",fontSize:"30px",narginLeft:"-80px"}}>your peace of mind is</h2>
+                  <h1 className="Peace" style={{fontFamily:"sans-serif" ,width:"430px",marginTop:"-30px",marginLeft:"40px"}}>our number one priority.</h1>
+                  <div style={{background:"orange",width:"200px",height:"2px",marginTop:"30px",marginBottom:"40px",marginLeft:"90px"}}>
 
                   </div>
-                  <p  className="Peace"style={{fontFamily:"sans-serif"}}>
-                      UniversaCare offers a range of services for<br/> in-home care. We are your partners in <br/>
+                  <p  className="Peace"style={{fontFamily:"sans-serif",fontSize:"20px",width:"440px",marginLeft:"25px"}}>
+                      UniversaCare offers a range of services for <br/> in-home care. We are your partners in <br/>
                       care ,and work with you to come up with a<br/>
                       plan of action. 
                  </p>         
