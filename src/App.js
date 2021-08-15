@@ -13,6 +13,7 @@ import { FooterContainer } from './containers/footer.js'
 import { AboveContainer } from './containers/above'
 import { ImageContainer } from './containers/images.js';
 import BestCari from './BestCari';
+import Chap from './Chap';
 function App() {
   const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
   
@@ -32,6 +33,7 @@ function App() {
     {isMobile?<Carousel/>:<Services/>}
    
     <BestCari/>
+    <Chap/>
     <ImageContainer/>
     <Review/>
     <AboveContainer />
