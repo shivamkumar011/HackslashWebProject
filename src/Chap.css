@@ -1,0 +1,24 @@
+.divimgchap{
+    text-align: center;
+    
+}
+.imgchap{
+    
+    
+    height: 200px;
+    width: 166px;
+}
+
+.textchap{
+   
+    text-align: center;
+    width: 550px;
+    margin: auto 0;
+}
+
+.Chap {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
